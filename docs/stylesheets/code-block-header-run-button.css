@@ -1,0 +1,12 @@
+:root {
+    --md-code-run-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='height: 240px; width: 240px;' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='M8,5.14V19.14L19,12.14L8,5.14Z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.md-code__button[data-md-type="run"] {
+    padding-block-start: .1em;
+}
+
+.md-code__button[data-md-type="run"]::after {
+    -webkit-mask-image: var(--md-code-run-icon);
+    mask-image: var(--md-code-run-icon);
+}

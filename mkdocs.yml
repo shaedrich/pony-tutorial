@@ -6,6 +6,11 @@ repo_url: https://github.com/ponylang/pony-tutorial/
 site_url: https://tutorial.ponylang.io/
 use_directory_urls: false
 
+extra_javascript:
+  - javascripts/code-block-header-run-button.js
+extra_css:
+  - stylesheets/code-block-header-run-button.css
+
 extra:
   generator: false
   social:
